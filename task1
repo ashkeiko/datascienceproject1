@@ -1,0 +1,28 @@
+
+Use case of “17-18 Melbourne property sales” project
+1.	Measure the shape of data
+The 13,581 sales records contain 3 types of properties sold by 264 agents which covers 8 regions and 313 suburbs from 2016 to 2017.
+
+2.	Data requirements
+•	Geographic info: Regionname, CouncilArea,Postcode=suburb, Propertycount, Lattitude & Longtitude, address, distance, buildingArea
+•	Property info: type, landsize, rooms, bedroom, bathroom, car, price, YearBuilt
+•	Sales info: method, seller, date
+
+*The meaning of distance attribute is not clear
+*Attributes include Car, BuildingArea and YearBuilt are missing inputs
+
+3.	Solved questions 
+•	Different properties sales quantity by geographic factor
+-	The sales amount in each region in 2016 & 2017? What is the trend?
+-	The sales amount in each suburb in 2016 & 2017? What is the trend?
+-	The average selling prices of different type of properties in each suburb in 2016 & 2017? What is the trend?
+-	The selling price range of each suburb in different room types?
+-	The average land price of each suburb? 
+-	The land size range of each suburb?
+-	The build year range of each suburb?
+
+•	Seller performance tracking and accessing
+In each suburb which seller has the best performance?
+How’s all seller’s performance in each quarter?
+Which seller is good at use what sale’s method to sell different type of property?
+
